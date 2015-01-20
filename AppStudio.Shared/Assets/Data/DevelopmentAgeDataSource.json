@@ -1,0 +1,32 @@
+{
+  "Items": [
+    {
+      "Title": "0-3 Months",
+      "Subtitle": "",
+      "Image": "/Assets/DataImages/ava1.jpg",
+      "Description": "-Watches parent's face when being talked to.<p>\r\n-Follows a moving light with eyes for a couple of seconds by 1 month.<p>\r\n-Makes sounds other than crying by 2 months..<p>\r\n-By 3 months baby is gurgling and laughing aloud.<p>\r\n-Smiles by 5-7 weeks.<p>\r\n-Some sleep through the night, but this is unusual.<p>",
+      "_id": "bf1636dc-e22a-42c8-9380-7b62b5bbbe6c"
+    },
+    {
+      "Title": "3-6 Months",
+      "Subtitle": "",
+      "Image": "/Assets/DataImages/ava2.jpg",
+      "Description": "-Your baby is starting to get some control over his/her body.<p>\r\n-Rolls over from front to back at about 4-6 months.<p>\r\n-Has the ability to lift head and chest when on his/her tummy by 4 months.<p>\r\n-When on tummy will lift and wave his arms and legs about.<p>\r\n-Sits up when being held by his hands but topples over if left in sitting position.<p>",
+      "_id": "fbbfd27f-3137-468c-afe4-c3a39aa9fe17"
+    },
+    {
+      "Title": "6-9 Months",
+      "Subtitle": "",
+      "Image": "/Assets/DataImages/ellie2.jpg",
+      "Description": "-He/She will turn towards familiar sounds and voices and want to make sounds themselves, not only 'talking' but by banging objects together.<p>\r\n-Roll over, front to back and back to front.<p>\r\n-Sit alone for a few moments when you put them into a sitting position, then manage to sit by themselves without falling over.<p>\r\n-Start to move while on their tummy.<p>",
+      "_id": "e867d8cb-eb50-43b9-92c0-4c869f29bdae"
+    },
+    {
+      "Title": "9-12 Months",
+      "Subtitle": "",
+      "Image": "/Assets/DataImages/ellie3.jpg",
+      "Description": "-It is usually in these three months that your baby begins to understand his very special relationship with you, and with friends and relatives. <p>\r\n-The big change in motor development is that they will move all on their own. They might pull themselves along with their arms, roll around, crawl on all fours or shuffle along in a sitting position.<p>\r\n-They recognize several words and may shake their head for \"no''.<p>",
+      "_id": "c7a83488-9805-4d3a-abfe-c035a0ed6536"
+    }
+  ]
+}

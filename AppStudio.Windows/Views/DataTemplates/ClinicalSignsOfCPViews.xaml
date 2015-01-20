@@ -1,0 +1,108 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:AppStudio.Controls"
+    xmlns:html2xaml="using:AppStudio.Controls.Html2Xaml"
+    xmlns:commands="using:AppStudio.Commands">
+
+    <!-- ListHorizontalCards -->
+    <DataTemplate x:Key="ClinicalSignsOfCPList">
+        <Grid MinWidth="480">
+            <GridView ItemsSource="{Binding PreviewItems}" SelectionMode="None" IsSwipeEnabled="False" IsItemClickEnabled="True"  commands:ItemClickCommand.Command="{Binding ItemClickCommand}"
+                      ScrollViewer.VerticalScrollBarVisibility="Hidden"
+                     ItemTemplate="{StaticResource ClinicalSignsOfCPItem}">
+            </GridView>
+            <ProgressBar Height="40" Foreground="White" VerticalAlignment="Top" IsIndeterminate="True" Visibility="{Binding ProgressBarVisibility}" />
+        </Grid>
+    </DataTemplate>
+
+    <DataTemplate x:Key="ClinicalSignsOfCPListSnapped">
+        <Grid Width="230">
+            <GridView ItemsSource="{Binding PreviewItems}"  SelectionMode="None" IsSwipeEnabled="False" IsItemClickEnabled="True" commands:ItemClickCommand.Command="{Binding ItemClickCommand}"
+                      ScrollViewer.VerticalScrollBarVisibility="Hidden"
+                      ItemTemplate="{StaticResource ClinicalSignsOfCPItemSnapped}">
+            </GridView>
+            <ProgressBar Height="40" Foreground="White" VerticalAlignment="Top" IsIndeterminate="True" Visibility="{Binding ProgressBarVisibility}" />
+        </Grid>
+    </DataTemplate>
+
+    <!-- ListHorizontalCards Item -->
+    <DataTemplate x:Key="ClinicalSignsOfCPItem">
+        <Grid Width="480" Height="120">
+            <Grid.Background>
+                <SolidColorBrush Color="Black" Opacity="0.5" />
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="140"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Image Grid.RowSpan="2" Margin="16" Source="{Binding Image, Converter={StaticResource ThumbnailConverter}, ConverterParameter=180}" MaxHeight="90" Stretch="UniformToFill" />
+            <TextBlock Grid.Row="0" Grid.Column="1" Margin="0, 16, 16, 0" Style="{StaticResource ItemHeaderText}" Text="{Binding Title, Converter={StaticResource TextPlainConverter}, ConverterParameter=140}" />
+            <TextBlock Grid.Row="1" Grid.Column="1" Margin="0, 0, 16, 16" Style="{StaticResource ItemSubheaderText}" Text="" />
+        </Grid>
+    </DataTemplate>
+
+    <DataTemplate x:Key="ClinicalSignsOfCPItemSnapped">
+        <Grid Width="220" Height="60">
+            <Grid.Background>
+                <SolidColorBrush Color="Black" Opacity="0.5" />
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Image Grid.RowSpan="2" Margin="8" Source="{Binding Image, Converter={StaticResource ThumbnailConverter}, ConverterParameter=180}" MaxHeight="70" Stretch="UniformToFill" />
+            <TextBlock Grid.Row="0" Grid.Column="1" Margin="0, 8, 8, 0" Style="{StaticResource ItemHeaderTextSnapped}" Text="{Binding Title, Converter={StaticResource TextPlainConverter}, ConverterParameter=140}" />
+            <TextBlock Grid.Row="1" Grid.Column="1" Margin="0, 0, 8, 8" Style="{StaticResource ItemSubheaderTextSnapped}" Text="" />
+        </Grid>
+    </DataTemplate>
+
+    <!-- DetailMultiColumn -->
+    <DataTemplate x:Key="ClinicalSignsOfCP1DetailDetail">
+      <ScrollViewer VerticalScrollBarVisibility="Auto" ZoomMode="Disabled">
+        <Grid Margin="12,0">
+          <Grid.RowDefinitions>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="Auto"/>
+              <RowDefinition Height="*"/>
+          </Grid.RowDefinitions>
+
+          <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+          </Grid.ColumnDefinitions>
+
+          <TextBlock Grid.ColumnSpan="2" Style="{StaticResource HeaderText}" Text="{Binding Title, Converter={StaticResource TextPlainConverter}, ConverterParameter = 140}" />
+          
+          <Button Grid.Row="2" Margin="0,24,0,12" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{StaticResource ImageButtonStyle}" Command="{Binding Source={StaticResource ActionCommands}, Path=ShowImage}" CommandParameter="{Binding Image}">
+            <Viewbox StretchDirection="DownOnly">
+              <Image Source="{Binding Image}" Stretch="UniformToFill" />
+            </Viewbox>
+          </Button>
+          <RichTextBlock Grid.Row="1" Grid.Column="1" Grid.RowSpan="3" Margin="24"
+                         Style="{StaticResource Html2XamlStyle}" html2xaml:Properties.Html="{Binding Description, Converter={StaticResource TextPlainConverter}}" />
+        </Grid>
+      </ScrollViewer>
+    </DataTemplate>
+    <DataTemplate x:Key="ClinicalSignsOfCP1DetailDetailSnapped">
+        <Grid Width="230">
+            <StackPanel>
+                <TextBlock Margin="0,0,0,30" Style="{StaticResource HeaderText}" Text="{Binding Title, Converter={StaticResource TextPlainConverter}, ConverterParameter = 140}" />
+                <Viewbox MaxHeight="250" StretchDirection="DownOnly">
+                  <Image Source="{Binding Image}" />
+                </Viewbox>
+                <RichTextBlock Margin="0, 30" Style="{StaticResource Html2XamlStyle}" html2xaml:Properties.Html="{Binding Description, Converter={StaticResource TextPlainConverter}}" />
+            </StackPanel>
+        </Grid>
+    </DataTemplate>
+</ResourceDictionary>

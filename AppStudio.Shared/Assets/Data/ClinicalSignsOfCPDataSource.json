@@ -1,0 +1,60 @@
+{
+  "Items": [
+    {
+      "Title": "Muscle Tone",
+      "Subtitle": "",
+      "Image": "/Assets/DataImages/muscle.jpg",
+      "Description": "-Hypotonia – decreased muscle tone or tension (flaccid, relaxed, or floppy limbs).<p>\r\n-Hypertonia – increased muscle tone or tension (stiff or rigid limbs).<p>\r\n-Dystonia – fluctuating muscle tone or tension (too loose at times and too tight at others).<p>\r\n-Mixed – the trunk of the body may be hypotonic while the arms and legs are hypertonic.<p>\r\n-Muscle spasms – sometimes painful, involuntary muscular contraction.<p>\r\n-Fixed joints – joints that are effectively fused together preventing proper motion.<p>\r\n-Abnormal neck or truncal tone – decreased hypotonic or increased hypertonic, depending on age and cerebral palsy type.<p>\r\n-Clonus – muscular spasms with regular contractions.<p>\r\n***Ankle/foot clonus – spasmodic abnormal movement of the foot.<p>\r\n***Wrist clonus – spasmodic movement of the hand.",
+      "_id": "124cc2fd-b019-47bc-8d22-50aff97957ee"
+    },
+    {
+      "Title": "Movement Co-ordination and Control",
+      "Subtitle": "",
+      "Image": "/Assets/DataImages/brain.png",
+      "Description": "-Spastic movements – hypertonic movements where the muscles are too tight resulting in muscle spasms, scissoring of the legs, clonus, contracture, fixed joints, and over-flexed limb.<p>\r\n-Athetoid or dyskinetic movements – fluctuating muscle tone causing uncontrolled, sometimes slow, writhing movements which can worsen with stress.<p>\r\n-Ataxic movements - poor coordination and balance making tasks – such as writing, brushing teeth, buttoning shirts, tying shoes, and putting keys into slots – difficult.<p>\r\n-Mixed movements – a mixture of movement impairments, most commonly a combination of spastic and athetoid types, affecting different limbs.<p>\r\n-Gait disturbances – control impairments affecting the way a child walks.<p>\r\n",
+      "_id": "73d4c0f3-b933-4e1b-8fae-f632ef40e4bd"
+    },
+    {
+      "Title": "Reflex",
+      "Subtitle": "",
+      "Image": "/Assets/DataImages/reflex.jpg",
+      "Description": "-Asymmetrical tonic reflex – when the head turns, the legs on the same side will extend, and the opposite limbs contract like in a fencing pose. Asymmetrical tonic reflex should disappear around six months of age.<p>\r\n-Symmetrical tonic neck reflex – the infant assumes a crawling position when the head is extended. Symmetrical tonic neck reflex should disappear between eight and 11 months.<p>\r\n-Spinal gallant reflexes – when the infant lies on its stomach, the hips will turn towards the side of the body that is touched. Spinal gallant reflexes should disappear between three and nine months.<p>\r\n-Tonic labyrinthine reflex – when the head is tilted back, the back arches, the legs straighten, and the arms bend. Tonic labyrinthine reflex should disappear by three-and-a-half years of age.<p>\r\n-Palmer grasp reflex – when stimulating the palm the hand flexes in a grasping motion. Palmer grasp reflex should disappear around four to six months.<p>\r\n-Placing reflex – when an infant is held upright and the back of a foot touches the surface, the legs will flex. Placing reflex should disappear by five months.<p>\r\n-Moro (startle) reflex – when the infant is tilted so his or her legs are above their head, the arms will extend. Moro reflex should disappear by six months.<p>",
+      "_id": "d2ac4b7d-ca1a-4107-a49a-35975888b6fb"
+    },
+    {
+      "Title": "Posture",
+      "Subtitle": "",
+      "Image": "/Assets/DataImages/baby-1.jpg",
+      "Description": "-Traction<p>\r\n-Landau reflex – when the infant is supported in a lying position, pushing the head down will cause the legs to drop, and lifting the head will cause them to rise. This response appears around four or five months of age.<p>\r\n-Parachute response – when the infant is positioned with his or her head towards the ground, the infant should instinctively reach as if bracing for impact. This response appears around eight to 10 months of age.<p>\r\n-Head righting – when an infant is swayed back and forth, his or her head will remain straight. This response appears around four months of age.<p>\r\n-Trunk righting – when a sitting infant is quickly pushed to the side, the infant will resist the force and use opposite hand and arm to brace against impact. This response appears around eight months of age.<p>",
+      "_id": "8034cb50-54f5-4fea-80a9-3a910d6c97df"
+    },
+    {
+      "Title": "Balance",
+      "Subtitle": "",
+      "Image": "/Assets/DataImages/balance.jpg",
+      "Description": "-Requiring both hands for support.<p>\r\n-Having difficulty balancing when not using hands for support.<p>\r\n-Unable to sit without using hands for support.<p>\r\n\r\n",
+      "_id": "709e7ac0-8e72-4a60-80ec-9d4c6ae96593"
+    },
+    {
+      "Title": "Gross Motor Function",
+      "Subtitle": "",
+      "Image": "/Assets/DataImages/motor.jpg",
+      "Description": "-Impaired gross motor functions – limited capability of accomplishing common physical skills such as walking, running, jumping, and maintaining balance.<p>\r\n-Delayed gross motor functions – physical skills developed later than expected; often used in conjunction with developmental milestones for predictable stages of development.<p>",
+      "_id": "2a05517d-c36a-4353-84dc-b7ac4424d415"
+    },
+    {
+      "Title": "Fine Motor Function",
+      "Subtitle": "",
+      "Image": "/Assets/DataImages/motot.jpg",
+      "Description": "-Impaired or delayed fine motor skills are an indicator of possible cerebral palsy. Intention tremors, where a task becomes more difficult as it gets closer to completion, is one such sign.<p>\r\n\r\nExamples of fine motor function development are:<p>\r\n\r\n-Grasping small objects.<p>\r\n-Holding objects between thumb and forefinger.<p>\r\n-Setting objects down gently.<p>\r\n-Using crayons.\r\n-Turning pages in a book.",
+      "_id": "2653f79a-b872-4079-8df7-249d73290474"
+    },
+    {
+      "Title": "Oral Motor Function",
+      "Subtitle": "",
+      "Image": "/Assets/DataImages/oralmotot.jpg",
+      "Description": "-Breathing – the lungs, and specifically the muscles controlling inhalation and exhalation necessary for proper speech patterns. The diaphragm and abdominal muscles are important for proper air flow and posture.<p>\r\n-Articulating – muscles controlling the face, throat, mouth, tongue, jaw, and palate all must work together to form the proper shape necessary for pronunciation of words and syllables.<p>\r\n-Voicing – vocal cords are controlled by muscles that essentially stretch the vocal folds between two regions of cartilage.<p>",
+      "_id": "ba5c2a3d-6c07-4bd5-b71f-4f9c4df73415"
+    }
+  ]
+}

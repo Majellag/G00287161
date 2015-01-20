@@ -1,0 +1,18 @@
+{
+  "Items": [
+    {
+      "Title": "What is Cerebral Palsy?",
+      "Subtitle": "",
+      "Image": "/Assets/DataImages/Cerebral-Palsy-Infographic.jpg",
+      "Description": "Cerebral palsy (CP) is a physical disability that affects movement and posture.<p>\r\nCerebral palsy is term that refers to a group of disorders affecting a person’s ability to move. It is a permanent life-long condition, but generally does not worsen over time. It is due to damage to the developing brain either during pregnancy or shortly after birth.<p>\r\n\r\nCerebral palsy affects people in different ways and can affect body movement, muscle control, muscle coordination, muscle tone, reflex, posture and balance.<p>\r\n\r\nPeople who have cerebral palsy may also have visual, learning, hearing, speech, epilepsy and intellectual impairments.",
+      "_id": "84bb938b-ce6b-48d6-bdaf-69e3550c7214"
+    },
+    {
+      "Title": "Signs & Symptoms of CP",
+      "Subtitle": "",
+      "Image": "/Assets/DataImages/diagnosis-main_353_293.jpg",
+      "Description": "The primary effect of cerebral palsy is impairment of muscle tone, gross and fine motor functions, balance, control, coordination, reflexes, and posture. Oral motor dysfunction, such as swallowing and feeding difficulties, speech impairment, and poor facial muscle tone can also indicate cerebral palsy.<p>\r\nMany signs and symptoms are not readily visible at birth, except in some severe cases, and may appear within the first three to five years of life as the brain and child develop.<p>\r\nIn these instances, the most apparent early sign of cerebral palsy is developmental delay. Delay in reaching key growth milestones, such as rolling over, sitting, crawling and walking are cause for concern. Practitioners will also look for signs such as abnormal muscle tone, unusual posture, persistent infant reflexes, and early development of hand preference.",
+      "_id": "4cbdde26-cb65-451e-bb89-e0a845e16393"
+    }
+  ]
+}
